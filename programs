@@ -1,0 +1,12 @@
+------------------------------------------
+window manager: i3-gaps
+
+text editor: neovim
+    - nerdtree
+    - 
+bar: polybar
+application launcher: rofi
+file browser: ranger
+music player: ncmpcpp
+terminal: termite
+  - shell: zsh
