@@ -1,0 +1,63 @@
+sw_volume: 79
+audio_device_state:1:pulse audio
+audio_device_state:1:mpd_fifo
+state: stop
+current: 33
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:1000 Forms of Fear/01 Chandelier.mp3
+1:Sia - This Is Acting (Deluxe Edition) [2016] [MP3~320Kbps]/Sia - This Is Acting (Deluxe Edition) [2016]/15. Confetti.mp3
+2:1000 Forms of Fear/06 Straight for the Knife.mp3
+3:1000 Forms of Fear/10 Fire Meet Gasoline.mp3
+4:Rock, Indie and Pop/ACDC- Back in Black (1980 24bit 96khz Vinyl) [FLAC]/06 Back in Black.flac
+5:Rock, Indie and Pop/Carly Rae Jepsen - Emotion Side B/01. First Time.mp3
+6:Rock, Indie and Pop/Charli XCX - Number 1 Angel (2017) [Mp3~320kbps]/Charli XCX - Number 1 Angel (2017)/5 Emotional.mp3
+7:Rock, Indie and Pop/Carly Rae Jepsen - Emotion Side B/01. First Time.mp3
+8:Rock, Indie and Pop/Carly Rae Jepsen - Emotion Side B/02. Higher.mp3
+9:Rock, Indie and Pop/Carly Rae Jepsen - Emotion Side B/03. The One.mp3
+10:Rock, Indie and Pop/Carly Rae Jepsen - Emotion Side B/04. Fever.mp3
+11:Rock, Indie and Pop/Carly Rae Jepsen - Emotion Side B/05. Body Language.mp3
+12:Rock, Indie and Pop/Carly Rae Jepsen - Emotion Side B/06. Cry.mp3
+13:Rock, Indie and Pop/Carly Rae Jepsen - Emotion Side B/07. Store.mp3
+14:Rock, Indie and Pop/Carly Rae Jepsen - Emotion Side B/08. Roses.mp3
+15:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-1/Beyoncé - Beyoncé - 01 Pretty Hurts.mp3
+16:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-1/Beyoncé - Beyoncé - 02 Haunted.mp3
+17:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-1/Beyoncé - Beyoncé - 04 Blow.mp3
+18:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-1/Beyoncé - Beyoncé - 05 No Angel.mp3
+19:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-1/Beyoncé - Beyoncé - 06 Partition.mp3
+20:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-1/Beyoncé - Beyoncé - 07 Jealous.mp3
+21:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-1/Beyoncé - Beyoncé - 08 Rocket.mp3
+22:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-1/Beyoncé - Beyoncé - 10 XO.mp3
+23:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-1/Beyoncé - Beyoncé - 13 Heaven.mp3
+24:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-2/Beyoncé - Beyoncé [Platinum Edition] - 01 7_11.mp3
+25:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-2/Beyoncé - Beyoncé [Platinum Edition] - 02 Flawless Remix (Feat. Nicki Minaj).mp3
+26:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-2/Beyoncé - Beyoncé [Platinum Edition] - 03 Drunk In Love Remix (Feat. Jay-Z And Kanye West).mp3
+27:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-2/Beyoncé - Beyoncé [Platinum Edition] - 04 Ring Off.mp3
+28:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-2/Beyoncé - Beyoncé [Platinum Edition] - 05 Blow Remix (Feat. Pharrell Williams).mp3
+29:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-2/Beyoncé - Beyoncé [Platinum Edition] - 06 Standing On The Sun Remix (Feat. Mr. Vegas).mp3
+30:Rock, Indie and Pop/Beyonce [Beyonce (Platinum Edition)] 2014 CD-MP3 320Kbps URBiN4HD/CD-2/Beyoncé - Beyoncé [Platinum Edition] - 01 7_11.mp3
+31:Japanese Music/01 Renai Circulation.mp3
+32:Japanese Music/[Shin-S] Tanaka-kun wa Itsumo Kedaruge OP Single - Utatane Sunshine (FLAC) [Unlimited tone]/Tanaka-kun wa Itsumo Kedaruge OP Single - Utatane Sunshine/01 - Utatane Sunshine.flac
+33:Japanese Music/[얼티메이트] [140806] TVアニメ「アオハライド」OPテーマ「世界は恋に落ちている」／CHiCO with HoneyWorks (320K+BK)/MP3/01. 世界は恋に落ちている.mp3
+34:Japanese Music/[메다] のんのんびより(Non Non Biyori) Music Collection (Flac)/OP & ED/[131030] のんのんびより OP 「なないろびより」/初回限定盤/01. なないろびより.flac
+35:Japanese Music/[메다] のんのんびより(Non Non Biyori) Music Collection (Flac)/OP & ED/[131030] のんのんびより OP 「なないろびより」/初回限定盤/02. きせつの隨.flac
+36:Japanese Music/[메다] のんのんびより(Non Non Biyori) Music Collection (Flac)/OP & ED/[131030] のんのんびより OP 「なないろびより」/初回限定盤/03. めまい.flac
+37:Japanese Music/[메다] のんのんびより(Non Non Biyori) Music Collection (Flac)/OP & ED/[131030] のんのんびより OP 「なないろびより」/初回限定盤/01. なないろびより.flac
+38:Japanese Music/[메다] のんのんびより(Non Non Biyori) Music Collection (Flac)/OP & ED/[131030] のんのんびより OP 「なないろびより」/通常盤/01. なないろびより.flac
+39:Japanese Music/[Nipponsei] Jojo no Kimyou na Bouken OP2 Single - BLOODY STREAM [Coda]/01 - BLOODY STREAM.mp3
+40:Craig Taborn Trio - Chants (2013) [FLAC]/01 Saints.flac
+41:Jazz/Charlie Parker - Charlie Parker with Strings - The Master Takes (1995) [FLAC]/01 Just Friends.flac
+42:Jazz/Marion Brown/1968 - Marion Brown & Gunter Hampel – Gesprachsfetzen/Side A. 1. GespraI^chsfetzen; 2. Exhibit A.mp3
+43:Jazz/Miles Davis - In A Silent Way [24-192][otto1961]/01. Shhh-Peaceful.flac
+44:Jazz/Preservation Hall Jazz Band/2013 - That's It! FLAC/01 - That's It!.flac
+45:Jazz/Preservation Hall Jazz Band/2013 - That's It! FLAC/01 - That's It!.flac
+46:Jazz/1957. Art Pepper - meets The Rhythm Section/01. You'd Be So Nice to Come Home To.flac
+47:Jazz/Allison Miller's Boom Tic Boom/Otis Was a Polar Bear (2016) [24-96]/01 - Fuster.flac
+48:Japanese Music/[LonE]_Saitou_Chiwa_-_Bakemonogatari_OP_Single_-_staple_stable_[w_scans]_(mp3)/[LonE]_Saitou_Chiwa_-_Bakemonogatari_OP_Single_-_staple_stable_[w_scans]_(mp3)/01 staple stable.mp3
+playlist_end

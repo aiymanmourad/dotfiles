@@ -1,87 +1,94 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+#=======================================================
+#		  Enviorment Variables
+#=======================================================
 
-# Path to your oh-my-zsh installation.
-  export ZSH=/home/aiyman/.oh-my-zsh
+# path 
+export PATH=$HOME/bin:w:/usr/local/bin:$PATH
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="refined"
+# oh my zsh configuartion
+# export ZSH=$HOME/.oh-my-zsh
+
+# ssh key path
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# arm dev kit location
+export DEVKITPRO=/opt/devkitpro:/opt/devkitpro/devkitARM
+
+# language enviorment
+export LANG=en_US.UTF-8
+
+# default editor
+export EDITOR=nvim
 
 
-plugins=(git rails common-aliases npm repo sudo)
 
-source $ZSH/oh-my-zsh.sh
+#=======================================================
+#		      Aliases
+#=======================================================
 
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# prompt aliases 
-alias xrdbl="xrdb -load ~/.Xresources"
-alias get="sudo apt-get install"
-alias exc="chmod +x"
-alias zshx="source ~/.zshrc"
-alias i3conf="vim ~/.config/i3/config"
-alias termconf="vim ~/.config/termite/config"
-alias tmuxconf="vim ~/.tmux.conf"
-alias s="sudo"
+alias xrdbl="xrdb -load ~/.Xresources" #source Xresources
+alias get="sudo apt-get install" #apt-get 
+alias exc="chmod +x" #make excecutable
+alias zshx="source ~/.zshrc" #source zsh
+alias zshc="vi ~/.zshrc" #edit zsh config
+alias vic="vi ~/.config/nvim/init.vim" #edit nvim config
+alias i3c="vi ~/.config/i3/config" #edit i3 config
+alias tc="vi ~/.config/termite/config" #edit termite config
+alias tmuxc="vi ~/.tmux.conf" #edit tmux config
+alias bar="vi ~/.config/polybar/config" #edit polybar config
+alias s="sudo" #sudo
+alias vi="nvim" #nvim 
+alias @="c:qlear" #clear term
 alias config="/usr/bin/git  --git-dir=$HOME/.cfg --work-tree=$HOME"
 
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
+#=======================================================
+#		      Antigen 
+#=======================================================
 
 source ~/antigen.zsh
 
-# Load the oh-my-zsh's library.
+# load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
-# Bundles from the default repo (robbyrussell's oh-my-zsh).
+# antigen bundles
 antigen bundle git
 antigen bundle heroku
 antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
 
-# Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-# Load the theme.
+# antigen Theme
 antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
 
-# BUllet Train Customization
+antigen apply
+
+#=======================================================
+#		      Prompt 
+#=======================================================
 
 BULLETTRAIN_PROMPT_CHAR="~"
 BULLETTRAIN_TIME_12HR="true"
+BULLETTRAIN_CONTEXT_HOSTNAME=""
+  BULLETTRAIN_PROMPT_ORDER=(
+    time
+    status
+    custom
+    dir
+    screen
+    perl
+    ruby
+    virtualenv
+    nvm
+    aws
+    go
+    elixir
+    git
+    hg
+    cmd_exec_time
+)
 
 
-# Tell Antigen that you're done.
-antigen apply
-export DEVKITPRO=/opt/devkitpro
-export DEVKITPRO=/opt/devkitpro/devkitARM
-lmao
+
+

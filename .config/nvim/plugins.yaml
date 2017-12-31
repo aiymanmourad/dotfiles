@@ -1,0 +1,5 @@
+
+#Startup
+- Shougo/dein.vim
+- christoomey/vim-tmux-navigator
+- itchyny/vim-gitbranch:q

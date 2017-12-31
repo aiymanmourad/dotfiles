@@ -1,0 +1,4 @@
+#!/bin/zsh
+scrot ~/.screenshots 
+echo("Taking a screenshot")
+

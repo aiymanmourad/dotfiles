@@ -1,0 +1,9 @@
+#!/bin/zsh
+echo 'ABCDEFGHIJKLMNOPQRSTUVWXYZ 12345'
+echo 'abcdefghijklmnopqrstuvwxyz 67890' 
+echo '{} [] () <> $ * - + = / # + _ % ^ @ \ & | ~ ? ' " ! , . ; :"
+echo 'the quick brown dog jumps over the lazy dog'
+echo 'THE QUICK BROWN DOG JUMPS OVER THE LAZY DOG'
+
+
+
