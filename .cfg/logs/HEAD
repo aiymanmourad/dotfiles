@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 20dd06a1f51018455bcde7afbc1233f2ba50d259 aiyman <aiyman.mourad@gmail.com> 1513457556 -0500	commit (initial): Add vimrc
+20dd06a1f51018455bcde7afbc1233f2ba50d259 477022762c4328379fe18f90c81e7412612e11f0 aiyman <aiyman.mourad@gmail.com> 1513457572 -0500	commit: Add zshrc
+477022762c4328379fe18f90c81e7412612e11f0 ba23fa613c1bf613cdf0aed06052c0ff91471eef aiyman <aiyman.mourad@gmail.com> 1514739277 -0500	commit: init commit nvim,i3,ranger,mpd,ncmpcpp,polybar,termite,cava,zsh,bin,tmux,compton
+ba23fa613c1bf613cdf0aed06052c0ff91471eef 2329dfe2e9c49409565486902e60aa29861ee1b1 aiyman <aiyman.mourad@gmail.com> 1514739577 -0500	pull origin master: Merge made by the 'recursive' strategy.
+2329dfe2e9c49409565486902e60aa29861ee1b1 dea4381eda1f2833020a1ef30c9b4fe78011410f aiyman <aiyman.mourad@gmail.com> 1514740190 -0500	pull: Fast-forward

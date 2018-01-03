@@ -26,26 +26,42 @@ export EDITOR=nvim
 #		      Aliases
 #=======================================================
 
+#general aliases
 alias xrdbl="xrdb -load ~/.Xresources" #source Xresources
+alias cpy="xclip -o -sel clip >" #xclip copy
 alias get="sudo apt-get install" #apt-get 
 alias exc="chmod +x" #make excecutable
 alias zshx="source ~/.zshrc" #source zsh
+alias s="sudo" #sudo
+alias vi="nvim" #nvim 
+alias @="clear" #clear term
+alias config="/usr/bin/git  --git-dir=$HOME/.cfg --work-tree=$HOME" #add files to dotfiles repo
+
+#dotfiles config aliases
 alias zshc="vi ~/.zshrc" #edit zsh config
 alias vic="vi ~/.config/nvim/init.vim" #edit nvim config
 alias i3c="vi ~/.config/i3/config" #edit i3 config
 alias tc="vi ~/.config/termite/config" #edit termite config
 alias tmuxc="vi ~/.tmux.conf" #edit tmux config
-alias bar="vi ~/.config/polybar/config" #edit polybar config
-alias s="sudo" #sudo
-alias vi="nvim" #nvim 
-alias @="c:qlear" #clear term
-alias config="/usr/bin/git  --git-dir=$HOME/.cfg --work-tree=$HOME"
+alias barc="vi ~/.config/polybar/config" #edit polybar config
+
+
+
+#django aliases
+alias dj="python manage.py" #djano manage.py
+alias djrs="dj runserver" #django run dev server
+alias djmm="dj makemigrations" #django make migrations
+alias djsu="dj createsuperuser" #django create su
+alias djmi="dj migrate" #django migrate db
+alias django="source ~/.virtualenvs/djangodev/bin/activate" #django python virtualenv
+alias djadmin="django-admin"
 
 #=======================================================
 #		      Antigen 
 #=======================================================
 
-source ~/antigen.zsh
+#source antigen
+source ~/antigen.zsh 
 
 # load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -57,21 +73,25 @@ antigen bundle pip
 antigen bundle lein
 antigen bundle command-not-found
 
-antigen bundle zsh-users/zsh-syntax-highlighting
+
+#always source at end 
+antigen bundle zsh-users/zsh-syntax-highlighting 
 
 # antigen Theme
 antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
 
-antigen apply
+antigen apply 
 
 #=======================================================
 #		      Prompt 
 #=======================================================
 
+
+# bullet train theme settings 
 BULLETTRAIN_PROMPT_CHAR="~"
 BULLETTRAIN_TIME_12HR="true"
 BULLETTRAIN_CONTEXT_HOSTNAME=""
-  BULLETTRAIN_PROMPT_ORDER=(
+BULLETTRAIN_PROMPT_ORDER=(
     time
     status
     custom
